@@ -1,0 +1,16 @@
+name: Test
+
+on:
+  pull_request:
+    branches:
+    - main
+    
+jobs:
+  test_job:
+    name: Testing
+    runs-on: ubuntu-18.04
+    
+    steps:
+      - name: GoLang Test
+        uses: n8maninger/action-golang-test@v1
+        
