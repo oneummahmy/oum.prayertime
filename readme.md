@@ -2,6 +2,8 @@
 
 The source of this prayer time is from Jakim Website as we scrape the page.
 
+![Test](https://github.com/oneummahmy/oum.prayertime/actions/workflows/test.yml/badge.svg)
+
 ## Example Usage
 
 Install package by running
