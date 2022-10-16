@@ -1,0 +1,19 @@
+name: Test
+
+on:
+  pull_request:
+    branches:
+    - main
+    
+jobs:
+  test_job:
+    name: Testing
+    runs-on: ubuntu-18.04
+    
+    steps:
+      - uses: actions/checkout@v1
+      - name: GoLang Test
+        uses: n8maninger/action-golang-test@v1
+        with:
+          show-package-output: true
+          show-passed-tests: true
