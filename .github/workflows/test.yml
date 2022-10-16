@@ -16,3 +16,4 @@ jobs:
         uses: n8maninger/action-golang-test@v1
         with:
           show-package-output: true
+          show-passed-tests: true
