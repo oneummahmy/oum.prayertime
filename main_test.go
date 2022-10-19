@@ -32,3 +32,7 @@ func TestGetPrayerTime(t *testing.T) {
 		t.Error("it is supposed to be MLK01")
 	}
 }
+
+func TestGetCoordinate(t *testing.T) {
+	oumprayertime.GetPrayerTimeByLatLng(2.453873065668171, 102.18036740789528)
+}
